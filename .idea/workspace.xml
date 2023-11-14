@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticlePic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/System_pic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/mapper/ArticleInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/test/java/com/zzz/blog/BlogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/YstoolsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/artifact/Artifact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/character/CharacterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/character/Yelan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/DmgComputeArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/bonus/res/AttrBonusRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/bonus/res/BonusListRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/bonus/res/BonusRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/bonus/res/DmgBonusRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/dict/ArtifactDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/dict/BonusDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/utils/DmgComputeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/common/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/CharacterAttr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/attributes/AdvancedStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/attributes/BaseInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/attributes/BaseStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/attributes/Constellation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/attributes/ElementalStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/talents/battle/Constellation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/talents/battle/ElementalBurst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/talents/battle/ElementalSkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/talents/battle/InherentGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/dao/talents/battle/OriginalAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/enums/BonusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/enums/ElementTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/enums/RegionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/enums/WeaponTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/mapper/CharacterAttrMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/mapper/WeaponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/monster/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/service/CharacterAttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/service/CharacterAttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/service/WeaponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/service/WeaponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/weapon/Bow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/resources/question_record.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/resources/thinking.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/test/java/com/zzz/ystools/YstoolsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/test/java/com/zzz/ystools/artifact/ArtifactTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/test/java/com/zzz/ystools/character/YelanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/test/java/com/zzz/ystools/dao/CharacterAttrTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/test/java/com/zzz/ystools/mapper/CharacterMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/test/java/com/zzz/ystools/service/CharacterAttrServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/test/java/com/zzz/ystools/service/WeaponServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/test/java/com/zzz/ystools/weapon/BowTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blog" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\environment\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../environment/maven/apache-maven-3.8.5" />
+        <option name="userSettingsFile" value="D:\environment\maven\apache-maven-3.8.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Y9pSxUNp9lDiKaCsN1U1yuh9xk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea-2023.1-workspace/z3website/ystools/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\main\resources" />
+      <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\test\java\com\zzz\ystools" />
+      <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\main\java\com\zzz\ystools" />
+      <recent name="D:\idea-2023.1-workspace\z3website\blog\src\main\java\com\zzz\blog" />
+      <recent name="D:\idea-2023.1-workspace\z3website\blog" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ArtifactTest.invoke">
+    <configuration name="ArtifactTest.invoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ystools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzz.ystools.artifact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzz.ystools.artifact" />
+      <option name="MAIN_CLASS_NAME" value="com.zzz.ystools.artifact.ArtifactTest" />
+      <option name="METHOD_NAME" value="invoke" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzz.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YstoolsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ystools" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzz.ystools.YstoolsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z3websiteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="z3website" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzz.z3website.Z3websiteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArtifactTest.invoke" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="" />
+      <created>1699947653169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699947653169</updated>
+      <workItem from="1699947654199" duration="2577000" />
+      <workItem from="1699951015621" duration="168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
