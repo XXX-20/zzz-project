@@ -1,0 +1,16 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://60.204.186.79:10426/genshin_tool?serverTimezone=UTC
+    username: genshin_tool
+    password: S8RemGn3PBDE2emz
+
+mybatis-plus:
+#  全局配置：
+  global-config:
+#    在以后的项目中，为了不去分别配置每个实体类的主键策略，我们可以统一设置主键的策略
+    db-config:
+#      ASSIGN_ID:可以在分布式的情况下使用，生成的是Long类型的数字，可以排序，性能也高，
+#      但是生成的策略和服务器时间有关，如果修改了系统时间就有可能导致出现重复主键
+      id-type: assign_id
