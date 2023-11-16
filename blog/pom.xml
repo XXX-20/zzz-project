@@ -13,13 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>blog</name>
 	<description>blog</description>
-	<properties>
-		<java.version>8</java.version>
-	</properties>
-
-	<dependencies>
-
-	</dependencies>
 
 
 </project>

@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="新增mp代码生成器模块。" />
+    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="新增mp代码生成器模块。">
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticlePicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogSystemPicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/test/java/com/zzz/blog/service/impl/BlogArticleInfoServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/java/com/zzz/mpgeneratorcodedemo/common/BlogGeneratorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/BlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticlePic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/System_pic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/mapper/ArticleInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/blog-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/blog-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/classes/com/zzz/blog/BlogApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/surefire-reports/TEST-com.zzz.blog.BlogApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/surefire-reports/com.zzz.blog.BlogApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/test-classes/com/zzz/blog/BlogApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/java/com/zzz/mpgeneratorcodedemo/MpGeneratorCodeDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/java/com/zzz/mpgeneratorcodedemo/common/GeneratorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/resources/templates/entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/resources/templates/entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/target/classes/com/zzz/mpgeneratorcodedemo/MpGeneratorCodeDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/target/classes/common/GeneratorCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -24,7 +60,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mpGeneratorCodeDemo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,26 +85,37 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/idea-2023.1-workspace/z3website/mpGeneratorCodeDemo/src/main/java/com/zzz/mpgeneratorcodedemo",
+    "last_opened_file_path": "D:/idea-2023.1-workspace/z3website/blog/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "300f1081f021376297e013c1f1f45ad3",
+    "spring.configuration.checksum": "3d79045ba678b53ce4082071e5c7da56",
     "ts.external.directory.path": "D:\\idea-2023.1-workspace\\z3website\\zzz-project-vue3-vite\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-2023.1-workspace\z3website\blog\src\main\resources" />
       <recent name="D:\idea-2023.1-workspace\z3website\mpGeneratorCodeDemo\src\main\java\com\zzz\mpgeneratorcodedemo" />
       <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\main\resources" />
       <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\test\java\com\zzz\ystools" />
       <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\main\java\com\zzz\ystools" />
-      <recent name="D:\idea-2023.1-workspace\z3website\blog\src\main\java\com\zzz\blog" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zzz.blog.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,13 +125,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GeneratorCode">
-    <configuration name="GeneratorCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.GeneratorCode" />
+  <component name="RunManager" selected="JUnit.BlogArticleInfoServiceImplTest.getById">
+    <configuration name="BlogGeneratorCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzz.mpgeneratorcodedemo.common.BlogGeneratorCode" />
       <module name="mpGeneratorCodeDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.*" />
+          <option name="PATTERN" value="com.zzz.mpgeneratorcodedemo.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +150,53 @@
       <option name="PACKAGE_NAME" value="com.zzz.ystools.artifact" />
       <option name="MAIN_CLASS_NAME" value="com.zzz.ystools.artifact.ArtifactTest" />
       <option name="METHOD_NAME" value="invoke" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogArticleInfoServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzz.blog.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzz.blog.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.zzz.blog.service.impl.BlogArticleInfoServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogArticleInfoServiceImplTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzz.blog.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzz.blog.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.zzz.blog.service.impl.BlogArticleInfoServiceImplTest" />
+      <option name="METHOD_NAME" value="getById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterMapperTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ystools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzz.ystools.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzz.ystools.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.zzz.ystools.mapper.CharacterMapperTest" />
+      <option name="METHOD_NAME" value="testSelect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,8 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GeneratorCode" />
+        <item itemvalue="JUnit.BlogArticleInfoServiceImplTest.getById" />
+        <item itemvalue="JUnit.BlogArticleInfoServiceImplTest" />
+        <item itemvalue="JUnit.CharacterMapperTest.testSelect" />
         <item itemvalue="JUnit.ArtifactTest.invoke" />
+        <item itemvalue="Application.BlogGeneratorCode" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +250,8 @@
       <updated>1699947653169</updated>
       <workItem from="1699947654199" duration="2577000" />
       <workItem from="1699951015621" duration="936000" />
-      <workItem from="1699951962099" duration="2200000" />
+      <workItem from="1699951962099" duration="2272000" />
+      <workItem from="1700096081679" duration="8344000" />
     </task>
     <task id="LOCAL-00001" summary="整理了项目依赖">
       <created>1699951387282</created>
@@ -176,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699954100269</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增mp代码生成器模块。">
+      <created>1699954223285</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699954223285</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

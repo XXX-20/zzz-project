@@ -23,6 +23,7 @@ import lombok.Data;
 
 import lombok.EqualsAndHashCode;
 
+import lombok.ToString;
 import lombok.experimental.Accessors;
 
 </#if>
@@ -50,6 +51,7 @@ import lombok.experimental.Accessors;
 </#if>
 
 @ApiModel(value = "${entity}对象", description = "${table.comment!}")
+@ToString
 
 <#if superEntityClass??>
 
