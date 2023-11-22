@@ -1,3 +1,5 @@
+
+
 # DataSource Config
 spring:
   datasource:
@@ -14,3 +16,6 @@ mybatis-plus:
 #      ASSIGN_ID:可以在分布式的情况下使用，生成的是Long类型的数字，可以排序，性能也高，
 #      但是生成的策略和服务器时间有关，如果修改了系统时间就有可能导致出现重复主键
       id-type: assign_id
+
+server:
+  port: 10000

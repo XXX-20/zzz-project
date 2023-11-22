@@ -4,41 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="新增mp代码生成器模块。">
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticlePicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogSystemPicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/test/java/com/zzz/blog/service/impl/BlogArticleInfoServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/java/com/zzz/mpgeneratorcodedemo/common/BlogGeneratorCode.java" afterDir="false" />
+    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="blog模块可以获取数据库数据">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zzz/common/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zzz/common/pojo/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/zzz/common/CommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/api/blog/blog_article_content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/api/blog/blog_article_info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/BlogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticlePic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/ArticleType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/dao/System_pic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/mapper/ArticleInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/blog-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/blog-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/classes/com/zzz/blog/BlogApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/surefire-reports/TEST-com.zzz.blog.BlogApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/surefire-reports/com.zzz.blog.BlogApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/target/test-classes/com/zzz/blog/BlogApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/java/com/zzz/mpgeneratorcodedemo/MpGeneratorCodeDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/java/com/zzz/mpgeneratorcodedemo/common/GeneratorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/resources/templates/entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpGeneratorCodeDemo/src/main/resources/templates/entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/target/classes/com/zzz/mpgeneratorcodedemo/MpGeneratorCodeDemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/target/classes/common/GeneratorCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticlePicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticlePicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/src/components/md.vue" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/components/md.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,13 +76,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowlc-helper.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/idea-2023.1-workspace/z3website/blog/src/main/resources",
+    "last_opened_file_path": "D:/idea-2023.1-workspace/z3website/zzz-project-vue3-vite/src/api/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,21 +98,24 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "3d79045ba678b53ce4082071e5c7da56",
+    "spring.configuration.checksum": "9a6a58715fb60adc5097943d371d15e8",
     "ts.external.directory.path": "D:\\idea-2023.1-workspace\\z3website\\zzz-project-vue3-vite\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-2023.1-workspace\z3website\zzz-project-vue3-vite\src\api\blog" />
       <recent name="D:\idea-2023.1-workspace\z3website\blog\src\main\resources" />
       <recent name="D:\idea-2023.1-workspace\z3website\mpGeneratorCodeDemo\src\main\java\com\zzz\mpgeneratorcodedemo" />
       <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\main\resources" />
       <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\test\java\com\zzz\ystools" />
-      <recent name="D:\idea-2023.1-workspace\z3website\ystools\src\main\java\com\zzz\ystools" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea-2023.1-workspace\z3website\common\src\main\java" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.zzz.blog.service.impl" />
@@ -125,7 +128,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BlogArticleInfoServiceImplTest.getById">
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
     <configuration name="BlogGeneratorCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzz.mpgeneratorcodedemo.common.BlogGeneratorCode" />
       <module name="mpGeneratorCodeDemo" />
@@ -251,7 +254,14 @@
       <workItem from="1699947654199" duration="2577000" />
       <workItem from="1699951015621" duration="936000" />
       <workItem from="1699951962099" duration="2272000" />
-      <workItem from="1700096081679" duration="8344000" />
+      <workItem from="1700096081679" duration="9398000" />
+      <workItem from="1700206083874" duration="9000" />
+      <workItem from="1700528445614" duration="10799000" />
+      <workItem from="1700553880166" duration="1536000" />
+      <workItem from="1700555424394" duration="917000" />
+      <workItem from="1700617133699" duration="16000" />
+      <workItem from="1700618668061" duration="10198000" />
+      <workItem from="1700638983958" duration="205000" />
     </task>
     <task id="LOCAL-00001" summary="整理了项目依赖">
       <created>1699951387282</created>
@@ -281,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699954223285</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="blog模块可以获取数据库数据">
+      <created>1700124441637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700124441637</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +323,7 @@
     </ignored-roots>
     <MESSAGE value="整理了项目依赖" />
     <MESSAGE value="新增mp代码生成器模块。" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增mp代码生成器模块。" />
+    <MESSAGE value="blog模块可以获取数据库数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog模块可以获取数据库数据" />
   </component>
 </project>
