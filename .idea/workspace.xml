@@ -4,34 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="blog模块可以获取数据库数据">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleContentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zzz/common/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/zzz/common/pojo/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/zzz/common/CommonApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ystools/src/main/java/com/zzz/ystools/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/api/blog/blog_article_content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/api/blog/blog_article_info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="新增common模块。创建通用返回类，跨域配置类。&#10;在vite项目根目录下创建module.d.ts,配置解析.vue文件的策略。">
+      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/assets/博客列表项UI.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/components/blogArticleInfoItem.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/BlogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticleInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticlePicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/controller/BlogArticlePicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/src/components/md.vue" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/components/md.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/src/views/blog/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/views/blog/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +22,7 @@
         <option value="JUnit5 Test Class" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -69,13 +48,16 @@
     </option>
   </component>
   <component name="ProjectId" id="2Y9pSxUNp9lDiKaCsN1U1yuh9xk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -97,7 +79,7 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "editing.templates",
     "spring.configuration.checksum": "9a6a58715fb60adc5097943d371d15e8",
     "ts.external.directory.path": "D:\\idea-2023.1-workspace\\z3website\\zzz-project-vue3-vite\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -261,7 +243,8 @@
       <workItem from="1700555424394" duration="917000" />
       <workItem from="1700617133699" duration="16000" />
       <workItem from="1700618668061" duration="10198000" />
-      <workItem from="1700638983958" duration="205000" />
+      <workItem from="1700638983958" duration="271000" />
+      <workItem from="1700639262202" duration="6085000" />
     </task>
     <task id="LOCAL-00001" summary="整理了项目依赖">
       <created>1699951387282</created>
@@ -298,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700124441637</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增common模块。创建通用返回类，跨域配置类。&#10;在vite项目根目录下创建module.d.ts,配置解析.vue文件的策略。">
+      <created>1700639197369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700639197369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,14 +306,17 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/blog" />
       <path value="$PROJECT_DIR$/ystools" />
       <path value="$PROJECT_DIR$/mpGeneratorCodeDemo" />
+      <path value="$PROJECT_DIR$/common" />
     </ignored-roots>
     <MESSAGE value="整理了项目依赖" />
     <MESSAGE value="新增mp代码生成器模块。" />
     <MESSAGE value="blog模块可以获取数据库数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="blog模块可以获取数据库数据" />
+    <MESSAGE value="新增common模块。创建通用返回类，跨域配置类。&#10;在vite项目根目录下创建module.d.ts,配置解析.vue文件的策略。" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增common模块。创建通用返回类，跨域配置类。&#10;在vite项目根目录下创建module.d.ts,配置解析.vue文件的策略。" />
   </component>
 </project>
