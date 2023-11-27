@@ -5,8 +5,8 @@ import BlogArticleInfoItem from "@/components/blogArticleInfoItem.vue";
 </script>
 
 <template>
-<!--  <MD></MD>-->
-  <blog-article-info-item></blog-article-info-item>
+  <MD></MD>
+<!--  <blog-article-info-item></blog-article-info-item>-->
 </template>
 
 <style lang='scss' scoped>

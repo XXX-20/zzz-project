@@ -22,4 +22,18 @@
 		</dependency>
 	</dependencies>
 
+	<build>
+		<!--    防止编译时不将静态资源编译进去，在pom.xml中添加-->
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>*.properties</include>
+					<include>*.xml</include>
+					<include>*.yml</include>
+					<include>**/*.xml</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
 </project>

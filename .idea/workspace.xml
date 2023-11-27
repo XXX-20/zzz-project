@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="新增common模块。创建通用返回类，跨域配置类。&#10;在vite项目根目录下创建module.d.ts,配置解析.vue文件的策略。">
-      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/assets/博客列表项UI.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/components/blogArticleInfoItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ca6d08b7-6767-4880-a5c1-d0b5b1600170" name="Changes" comment="编写博客列表单元组件">
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/zzz/blog/BlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/test/java/com/zzz/blog/BlogApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/test/java/com/zzz/blog/service/impl/BlogArticleInfoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/test/java/com/zzz/blog/service/impl/BlogArticleInfoServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpGeneratorCodeDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mpGeneratorCodeDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ystools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ystools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/utils/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zzz-project-vue3-vite/src/views/blog/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/zzz-project-vue3-vite/src/views/blog/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,17 +78,17 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/idea-2023.1-workspace/z3website/zzz-project-vue3-vite/src/api/blog",
+    "last_opened_file_path": "D:/idea-2023.1-workspace/z3website/blog/src/main/java/com/zzz/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editing.templates",
-    "spring.configuration.checksum": "9a6a58715fb60adc5097943d371d15e8",
+    "spring.configuration.checksum": "2744b0845f1f59fbaed9bb1730fd92b1",
     "ts.external.directory.path": "D:\\idea-2023.1-workspace\\z3website\\zzz-project-vue3-vite\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -244,7 +252,9 @@
       <workItem from="1700617133699" duration="16000" />
       <workItem from="1700618668061" duration="10198000" />
       <workItem from="1700638983958" duration="271000" />
-      <workItem from="1700639262202" duration="6085000" />
+      <workItem from="1700639262202" duration="6124000" />
+      <workItem from="1701069344496" duration="6601000" />
+      <workItem from="1701076098016" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="整理了项目依赖">
       <created>1699951387282</created>
@@ -288,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700639197369</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="编写博客列表单元组件">
+      <created>1700645390522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645390522</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +334,28 @@
     <MESSAGE value="新增mp代码生成器模块。" />
     <MESSAGE value="blog模块可以获取数据库数据" />
     <MESSAGE value="新增common模块。创建通用返回类，跨域配置类。&#10;在vite项目根目录下创建module.d.ts,配置解析.vue文件的策略。" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增common模块。创建通用返回类，跨域配置类。&#10;在vite项目根目录下创建module.d.ts,配置解析.vue文件的策略。" />
+    <MESSAGE value="编写博客列表单元组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写博客列表单元组件" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../environment/maven/repository/org/springframework/spring-beans/6.1.1/spring-beans-6.1.1.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class</url>
+          <line>85</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../environment/maven/repository/org/springframework/spring-beans/6.1.1/spring-beans-6.1.1.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../environment/maven/repository/org/mybatis/mybatis-spring/3.0.3/mybatis-spring-3.0.3.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.class</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
